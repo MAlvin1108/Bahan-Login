@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Cinzel+Decorative';
+}
+body {
+    background-image: url('img/gambar2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column; 
+}
+
+.header {
+    position: relative; /* Bisa diubah ke fixed jika ingin header tetap */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(12, 23, 24, 0.233); /* Warna lebih solid */
+    display: flex;
+    justify-content: space-between; /* Menata konten dalam header */
+    align-items: center;
+    padding: 10px 20px; /* Padding untuk elemen di dalam header */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
+}
+
+.header h1 {
+    color: black;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-buttons button {
+    background-color: rgba(0, 0, 0, 0.412);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1; 
+    padding: 50px;
+}
+
+.login {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: 20px; /* Memberikan jarak dengan aside */
+}
+
+.login2 {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: 20px; 
+}
+
+#fashive {
+    text-transform: uppercase;
+    font-family:'Cinzel+Decorative';
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: rgb(85, 97, 107);
+}
+
+.login input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login button {
+    width: 48%;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.412);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+aside {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: flex;
+    border-radius: 10px;
+    width: 150px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    justify-content:end;
+}
+
+aside h2 {
+    margin-bottom: 10px;
+    color: black;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin: 10px 0;
+    color: #333;
+    font-style: normal;
+    color: black;
+}
